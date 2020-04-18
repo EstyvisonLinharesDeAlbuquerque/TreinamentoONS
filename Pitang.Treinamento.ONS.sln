@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pitang.Treinamento.ONS.WebChat", "Pitang.Treinamento.ONS.WebChat\Pitang.Treinamento.ONS.WebChat.csproj", "{6D71F0C7-636C-4B02-BC13-8F51EEE81F44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{FAAFC979-8CE1-4DBC-B689-197DAD0C89EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pitang.Treinamento.ONS.Entities", "Pitang.Treinamento.ONS.Entities\Pitang.Treinamento.ONS.Entities.csproj", "{87338CBD-A584-4E7D-8F5D-2524F101E23D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitang.Treinamento.ONS.Services", "Pitang.Treinamento.ONS.Services\Pitang.Treinamento.ONS.Services.csproj", "{1B4E0440-F9B8-4913-858B-041545B617F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitang.Treinamento.ONS.Interfaces", "Pitang.Treinamento.ONS.Interfaces\Pitang.Treinamento.ONS.Interfaces.csproj", "{12E969B7-32BB-4EC8-9A68-60A147A9EA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitang.Treinamento.ONS.Data", "Pitang.Treinamento.ONS.Data\Pitang.Treinamento.ONS.Data.csproj", "{59CB4DCE-A6A0-439F-A2A8-00E8ACE761EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D71F0C7-636C-4B02-BC13-8F51EEE81F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D71F0C7-636C-4B02-BC13-8F51EEE81F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D71F0C7-636C-4B02-BC13-8F51EEE81F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D71F0C7-636C-4B02-BC13-8F51EEE81F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87338CBD-A584-4E7D-8F5D-2524F101E23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87338CBD-A584-4E7D-8F5D-2524F101E23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87338CBD-A584-4E7D-8F5D-2524F101E23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87338CBD-A584-4E7D-8F5D-2524F101E23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4E0440-F9B8-4913-858B-041545B617F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4E0440-F9B8-4913-858B-041545B617F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4E0440-F9B8-4913-858B-041545B617F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4E0440-F9B8-4913-858B-041545B617F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E969B7-32BB-4EC8-9A68-60A147A9EA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E969B7-32BB-4EC8-9A68-60A147A9EA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E969B7-32BB-4EC8-9A68-60A147A9EA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E969B7-32BB-4EC8-9A68-60A147A9EA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CB4DCE-A6A0-439F-A2A8-00E8ACE761EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CB4DCE-A6A0-439F-A2A8-00E8ACE761EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CB4DCE-A6A0-439F-A2A8-00E8ACE761EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CB4DCE-A6A0-439F-A2A8-00E8ACE761EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87338CBD-A584-4E7D-8F5D-2524F101E23D} = {FAAFC979-8CE1-4DBC-B689-197DAD0C89EA}
+		{1B4E0440-F9B8-4913-858B-041545B617F6} = {FAAFC979-8CE1-4DBC-B689-197DAD0C89EA}
+		{12E969B7-32BB-4EC8-9A68-60A147A9EA31} = {FAAFC979-8CE1-4DBC-B689-197DAD0C89EA}
+		{59CB4DCE-A6A0-439F-A2A8-00E8ACE761EA} = {FAAFC979-8CE1-4DBC-B689-197DAD0C89EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1446D399-CE34-4DBF-A19F-2E487ADBC852}
+	EndGlobalSection
+EndGlobal

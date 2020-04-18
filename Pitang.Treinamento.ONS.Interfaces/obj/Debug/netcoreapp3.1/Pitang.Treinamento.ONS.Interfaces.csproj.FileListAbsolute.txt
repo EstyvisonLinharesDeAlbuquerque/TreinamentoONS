@@ -1,0 +1,9 @@
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.Interfaces\bin\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.deps.json
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.Interfaces\bin\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.Interfaces\bin\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.Interfaces\obj\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.Interfaces\obj\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.Interfaces\obj\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.AssemblyInfo.cs
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.Interfaces\obj\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.Interfaces\obj\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.Interfaces\obj\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.csprojAssemblyReference.cache
