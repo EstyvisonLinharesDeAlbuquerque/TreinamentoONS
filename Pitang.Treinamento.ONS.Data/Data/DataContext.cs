@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Pitang.Treinamento.ONS.Data.Data
 {
-    class DataContext : DbContext
+    public class DataContext : DbContext
     {
         public DataContext(DbContextOptions<DataContext> options)
             : base(options)

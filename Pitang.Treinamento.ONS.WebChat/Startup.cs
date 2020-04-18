@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 using Microsoft.Extensions.Logging;
+using Pitang.Treinamento.ONS.Data.Data;
 
 namespace Pitang.Treinamento.ONS.WebChat
 {
