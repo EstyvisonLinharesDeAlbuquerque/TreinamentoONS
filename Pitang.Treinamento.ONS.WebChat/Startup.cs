@@ -14,6 +14,7 @@ using Pitang.Treinamento.ONS.Data.Data;
 
 
 using Microsoft.Extensions.Logging;
+using Pitang.Treinamento.ONS.Data.Data;
 
 namespace Pitang.Treinamento.ONS.WebChat
 {

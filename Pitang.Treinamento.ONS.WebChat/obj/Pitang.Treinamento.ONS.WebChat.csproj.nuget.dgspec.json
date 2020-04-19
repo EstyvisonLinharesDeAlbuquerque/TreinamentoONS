@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.WebChat\\Pitang.Treinamento.ONS.WebChat.csproj": {}
+    "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.WebChat\\Pitang.Treinamento.ONS.WebChat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Data\\Pitang.Treinamento.ONS.Data.csproj": {
+    "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Data\\Pitang.Treinamento.ONS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Data\\Pitang.Treinamento.ONS.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Data\\Pitang.Treinamento.ONS.Data.csproj",
         "projectName": "Pitang.Treinamento.ONS.Data",
-        "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Data\\Pitang.Treinamento.ONS.Data.csproj",
-        "packagesPath": "C:\\Users\\Gedenilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Data\\obj\\",
+        "projectPath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Data\\Pitang.Treinamento.ONS.Data.csproj",
+        "packagesPath": "C:\\Users\\Jefca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gedenilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jefca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj": {
-                "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj"
+              "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj": {
+                "projectPath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj"
               }
             }
           }
@@ -66,17 +69,20 @@
         }
       }
     },
-    "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj": {
+    "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj",
         "projectName": "Pitang.Treinamento.ONS.Entities",
-        "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj",
-        "packagesPath": "C:\\Users\\Gedenilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Entities\\obj\\",
+        "projectPath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj",
+        "packagesPath": "C:\\Users\\Jefca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gedenilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jefca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,6 +124,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Services\\Pitang.Treinamento.ONS.Services.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -178,16 +185,22 @@
       }
     },
     "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.WebChat\\Pitang.Treinamento.ONS.WebChat.csproj": {
+=======
+    "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.WebChat\\Pitang.Treinamento.ONS.WebChat.csproj": {
+>>>>>>> ec8abf4a9b15cf7da12737b5cfabe01ee7fbe8a6
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.WebChat\\Pitang.Treinamento.ONS.WebChat.csproj",
+        "projectUniqueName": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.WebChat\\Pitang.Treinamento.ONS.WebChat.csproj",
         "projectName": "Pitang.Treinamento.ONS.WebChat",
-        "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.WebChat\\Pitang.Treinamento.ONS.WebChat.csproj",
-        "packagesPath": "C:\\Users\\Gedenilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.WebChat\\obj\\",
+        "projectPath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.WebChat\\Pitang.Treinamento.ONS.WebChat.csproj",
+        "packagesPath": "C:\\Users\\Jefca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.WebChat\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gedenilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jefca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -200,11 +213,16 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Data\\Pitang.Treinamento.ONS.Data.csproj": {
                 "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Data\\Pitang.Treinamento.ONS.Data.csproj"
               },
               "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Services\\Pitang.Treinamento.ONS.Services.csproj": {
                 "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Services\\Pitang.Treinamento.ONS.Services.csproj"
+=======
+              "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Data\\Pitang.Treinamento.ONS.Data.csproj": {
+                "projectPath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Data\\Pitang.Treinamento.ONS.Data.csproj"
+>>>>>>> ec8abf4a9b15cf7da12737b5cfabe01ee7fbe8a6
               }
             }
           }

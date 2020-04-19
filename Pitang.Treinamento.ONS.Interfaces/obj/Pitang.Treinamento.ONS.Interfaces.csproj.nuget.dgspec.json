@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Interfaces\\Pitang.Treinamento.ONS.Interfaces.csproj": {}
+    "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Interfaces\\Pitang.Treinamento.ONS.Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Interfaces\\Pitang.Treinamento.ONS.Interfaces.csproj": {
+    "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Interfaces\\Pitang.Treinamento.ONS.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Interfaces\\Pitang.Treinamento.ONS.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Interfaces\\Pitang.Treinamento.ONS.Interfaces.csproj",
         "projectName": "Pitang.Treinamento.ONS.Interfaces",
-        "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Interfaces\\Pitang.Treinamento.ONS.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\Gedenilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Interfaces\\Pitang.Treinamento.ONS.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Jefca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gedenilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jefca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

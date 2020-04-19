@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "LySOjUgfoOobqBXQWEwf1Zy6YZpqnBO4C1va7FKw12TyFVRP1Ob4j4YZTJiHVsYEEOadUU310WeGAtdgBC9NYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Pitang.Treinamento.ONS\\Pitang.Treinamento.ONS.Services\\Pitang.Treinamento.ONS.Services.csproj",
@@ -24,5 +25,11 @@
     "C:\\Users\\Gedenilson\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\Gedenilson\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "J+VFyPgOQT1dX6suXgwuvgZmd9gzjuD+NKBdG8rHgXaIRv2E8/1ZEorj6Ie2rkAC8Rcl9Bn81PMS2guOBkPq0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Services\\Pitang.Treinamento.ONS.Services.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> ec8abf4a9b15cf7da12737b5cfabe01ee7fbe8a6
   "logs": []
 }
