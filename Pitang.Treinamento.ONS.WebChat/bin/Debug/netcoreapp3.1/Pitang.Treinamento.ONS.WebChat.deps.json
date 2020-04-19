@@ -26,6 +26,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.InMemory": "3.1.3",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.1",
+          "Pitang.Treinamento.ONS.Data": "1.0.0",
+          "Pitang.Treinamento.ONS.Services": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1745,6 +1747,38 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
+        }
+      },
+      "Pitang.Treinamento.ONS.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.3",
+          "Pitang.Treinamento.ONS.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Pitang.Treinamento.ONS.Data.dll": {}
+        },
+        "compile": {
+          "Pitang.Treinamento.ONS.Data.dll": {}
+        }
+      },
+      "Pitang.Treinamento.ONS.Entities/1.0.0": {
+        "runtime": {
+          "Pitang.Treinamento.ONS.Entities.dll": {}
+        },
+        "compile": {
+          "Pitang.Treinamento.ONS.Entities.dll": {}
+        }
+      },
+      "Pitang.Treinamento.ONS.Services/1.0.0": {
+        "dependencies": {
+          "Pitang.Treinamento.ONS.Data": "1.0.0",
+          "Pitang.Treinamento.ONS.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Pitang.Treinamento.ONS.Services.dll": {}
+        },
+        "compile": {
+          "Pitang.Treinamento.ONS.Services.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4241,6 +4275,21 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Pitang.Treinamento.ONS.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pitang.Treinamento.ONS.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pitang.Treinamento.ONS.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

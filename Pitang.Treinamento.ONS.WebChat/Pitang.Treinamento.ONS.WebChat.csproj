@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Pitang.Treinamento.ONS.Data\Pitang.Treinamento.ONS.Data.csproj" />
+    <ProjectReference Include="..\Pitang.Treinamento.ONS.Services\Pitang.Treinamento.ONS.Services.csproj" />
   </ItemGroup>
 
 

@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Pitang.Treinamento.ONS.Data.Data;
+using Pitang.Treinamento.ONS.Entities;
+using Pitang.Treinamento.ONS.Services;
 
 namespace Pitang.Treinamento.ONS.WebChat.Controllers
 {
@@ -13,10 +16,11 @@ namespace Pitang.Treinamento.ONS.WebChat.Controllers
     {
         [HttpGet]
         [Route("")]
-        public ActionResult<string> Get()
+        public async Task<ActionResult<List<User>>> Get([FromServices] DataContext contexto)
         {
-            var value = "Olá mundo";
-            return Ok(value);
+
+            var users = await UserService.GetAllUsers(contexto);
+            return Ok(users);
         }
     }
 }

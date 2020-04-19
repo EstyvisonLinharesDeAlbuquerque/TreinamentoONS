@@ -108,3 +108,9 @@ C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.
 C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.WebChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.WebChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.WebChat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.WebChat\bin\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Data.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.WebChat\bin\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Entities.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.WebChat\bin\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Data.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.WebChat\bin\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Entities.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.WebChat\bin\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Services.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Pitang.Treinamento.ONS\Pitang.Treinamento.ONS.WebChat\bin\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Services.pdb

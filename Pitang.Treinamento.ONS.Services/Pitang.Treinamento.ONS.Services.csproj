@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Pitang.Treinamento.ONS.Data\Pitang.Treinamento.ONS.Data.csproj" />
+    <ProjectReference Include="..\Pitang.Treinamento.ONS.Entities\Pitang.Treinamento.ONS.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
