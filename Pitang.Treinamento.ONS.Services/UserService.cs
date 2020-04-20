@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Pitang.Treinamento.ONS.Services
 {
-    public class UserService
+     public class UserService
     {
         public static async Task<List<User>> GetAllUsers(
            DataContext context)
@@ -17,5 +17,14 @@ namespace Pitang.Treinamento.ONS.Services
             var users = await context.Users.AsNoTracking().ToListAsync();
             return users;
         }
+
+        public static async Task<User> GetUser(
+           DataContext context,
+           int id)
+        {
+            var user = await context.Users.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
+            return user;
+        }
+
     }
 }

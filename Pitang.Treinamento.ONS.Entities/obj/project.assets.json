@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Jefca\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Gedenilson\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj",
       "projectName": "Pitang.Treinamento.ONS.Entities",
-      "projectPath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj",
-      "packagesPath": "C:\\Users\\Jefca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jefca\\source\\repos\\SMS Treino Estyvison\\Pitang.Treinamento.ONS.Entities\\obj\\",
+      "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Pitang.Treinamento.ONS.Entities.csproj",
+      "packagesPath": "C:\\Users\\Gedenilson\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Jefca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gedenilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

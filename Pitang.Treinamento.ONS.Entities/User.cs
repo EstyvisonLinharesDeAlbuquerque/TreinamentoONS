@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Text;
 
 namespace Pitang.Treinamento.ONS.Entities
 {
@@ -21,6 +23,12 @@ namespace Pitang.Treinamento.ONS.Entities
         [Required(ErrorMessage = "Este campo é obrigatório")]
         [MaxLength(20, ErrorMessage = "Limite máximo atingido")]
         [MinLength(3, ErrorMessage = "Limite mínimo não atingido")]
+        public String UserName { get; set; }
+
+        [Required(ErrorMessage = "Este campo é obrigatório")]
+        [MaxLength(20, ErrorMessage = "Limite máximo atingido")]
+        [MinLength(3, ErrorMessage = "Limite mínimo não atingido")]
+        [EmailAddress(ErrorMessage = "Email não possui o formato correto")]
         public String Email { get; set; }
 
         [Required(ErrorMessage = "Este campo é obrigatório")]
