@@ -14,5 +14,12 @@ namespace Pitang.Treinamento.ONS.Data.Data
 
         public DbSet<User> Users { get; set; }
 
+        public DbSet<Contact> Contacts { get; set; }
+
+        public DbSet<Messages> Messages { get; set; }
+
+        public DbSet<Contact> Strory { get; set; }
+
+
     }
 }

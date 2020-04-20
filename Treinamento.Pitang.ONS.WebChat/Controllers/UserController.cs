@@ -30,8 +30,29 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
             {
                 return BadRequest(new { message = "Não foi possível buscar os usuários" });
             }
+        }
 
-          
+        [HttpGet]
+        [Route("{id:int}")]
+        //[Authorize(Roles = "usuario")]
+        public async Task<ActionResult<User>> GetById(
+            int id,
+            [FromServices] DataContext context)
+        {
+            try
+            {
+                var user = await UserService.GetUser(context, id);
+                if (user == null)
+                    return NotFound(new { message = "Usuário não encontrado" });
+
+                return Ok(user);
+
+            }
+            catch
+            {
+                return BadRequest(new { message = "Não foi possível retornar o usuário" });
+            }
+
         }
 
         [HttpPost]
