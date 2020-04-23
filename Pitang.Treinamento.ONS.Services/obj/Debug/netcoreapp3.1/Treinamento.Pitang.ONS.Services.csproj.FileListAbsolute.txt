@@ -1,0 +1,14 @@
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Services.deps.json
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Services.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Services.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Data.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Entities.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Data.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Entities.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Services.csprojAssemblyReference.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Services.csproj.CoreCompileInputs.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Services.AssemblyInfoInputs.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Services.AssemblyInfo.cs
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Services.csproj.CopyComplete
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Services.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Services\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Services.pdb

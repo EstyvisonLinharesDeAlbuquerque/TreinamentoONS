@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tQWHlUroBj0TW7xsUx4ea5/E81be1KPq65Ef6OAuIF+cjeqZ/sZnS8bWfjuE3sja3aCvio+Kmrtlh6DLMWLKpw==",
+  "dgSpecHash": "t1hqQF7UC3l9+QgMF64Fl1ZO0uUsQ0UDkCyzV2E2G1IffRhOBzRzfYnQb8nY1XBgrQsqRVFIwuWH1SB0JKuZ3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Data\\Pitang.Treinamento.ONS.Data.csproj",
+  "projectFilePath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Data\\Treinamento.Pitang.ONS.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gedenilson\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Gedenilson\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

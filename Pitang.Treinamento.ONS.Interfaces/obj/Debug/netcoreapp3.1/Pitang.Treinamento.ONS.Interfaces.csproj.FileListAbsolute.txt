@@ -6,3 +6,4 @@ C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Interfaces\obj\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.AssemblyInfo.cs
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Interfaces\obj\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.dll
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Interfaces\obj\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Interfaces\obj\Debug\netcoreapp3.1\Pitang.Treinamento.ONS.Interfaces.csprojAssemblyReference.cache

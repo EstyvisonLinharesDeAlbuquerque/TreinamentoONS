@@ -28,7 +28,8 @@ namespace Treinamento.Pitang.ONS.WebChat
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+            //services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+            services.AddDbContext<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString"), b => b.MigrationsAssembly("Treinamento.Pitang.ONS.WebChat")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

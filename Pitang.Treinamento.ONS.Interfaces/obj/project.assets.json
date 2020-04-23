@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Interfaces\\Pitang.Treinamento.ONS.Interfaces.csproj",
-      "projectName": "Pitang.Treinamento.ONS.Interfaces",
-      "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Interfaces\\Pitang.Treinamento.ONS.Interfaces.csproj",
+      "projectUniqueName": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Interfaces\\Treinamento.Pitang.ONS.Interfaces.csproj",
+      "projectName": "Treinamento.Pitang.ONS.Interfaces",
+      "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Interfaces\\Treinamento.Pitang.ONS.Interfaces.csproj",
       "packagesPath": "C:\\Users\\Gedenilson\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
