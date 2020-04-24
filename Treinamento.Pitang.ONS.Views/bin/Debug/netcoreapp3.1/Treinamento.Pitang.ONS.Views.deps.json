@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Treinamento.Pitang.ONS.Views/1.0.0": {
+        "runtime": {
+          "Treinamento.Pitang.ONS.Views.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Treinamento.Pitang.ONS.Views/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

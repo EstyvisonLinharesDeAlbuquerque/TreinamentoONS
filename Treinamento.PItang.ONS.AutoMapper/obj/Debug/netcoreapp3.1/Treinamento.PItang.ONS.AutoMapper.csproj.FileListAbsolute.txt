@@ -1,0 +1,14 @@
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\bin\Debug\netcoreapp3.1\Treinamento.PItang.ONS.AutoMapper.deps.json
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\bin\Debug\netcoreapp3.1\Treinamento.PItang.ONS.AutoMapper.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\obj\Debug\netcoreapp3.1\Treinamento.PItang.ONS.AutoMapper.csprojAssemblyReference.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\obj\Debug\netcoreapp3.1\Treinamento.PItang.ONS.AutoMapper.AssemblyInfoInputs.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\obj\Debug\netcoreapp3.1\Treinamento.PItang.ONS.AutoMapper.AssemblyInfo.cs
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\obj\Debug\netcoreapp3.1\Treinamento.PItang.ONS.AutoMapper.csproj.CoreCompileInputs.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\bin\Debug\netcoreapp3.1\Treinamento.PItang.ONS.AutoMapper.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Entities.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Entities.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\obj\Debug\netcoreapp3.1\Treinamento.PItang.ONS.AutoMapper.csproj.CopyComplete
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\obj\Debug\netcoreapp3.1\Treinamento.PItang.ONS.AutoMapper.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.PItang.ONS.AutoMapper\obj\Debug\netcoreapp3.1\Treinamento.PItang.ONS.AutoMapper.pdb

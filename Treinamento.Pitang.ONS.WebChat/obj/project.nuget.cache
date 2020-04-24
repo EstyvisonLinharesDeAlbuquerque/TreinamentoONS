@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DT4MKur50XeLjPESO4KFCXI1+MqAJClkUW/7c/A5D1VRVD5aH9/p7bkLbwT9vOXYuQjRyQQDuZRkP0nGSedE9w==",
+  "dgSpecHash": "fnDHgxVuWKEa6xP8vqq2m+e+QFLuhRurMDODA0Sw9ja+Wx0d/JZp8ICH16ZjCVDBAWPyK/emsJN5EMTe47S2ag==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.WebChat\\Treinamento.Pitang.ONS.WebChat.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gedenilson\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\Gedenilson\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Gedenilson\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Gedenilson\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Gedenilson\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

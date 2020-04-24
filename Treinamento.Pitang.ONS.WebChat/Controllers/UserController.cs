@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pitang.Treinamento.ONS.Data.Data;
 using Pitang.Treinamento.ONS.Entities;
 using Pitang.Treinamento.ONS.Services;
+using Treinamento.Pitang.ONS.Views;
 
 namespace Treinamento.Pitang.ONS.WebChat.Controllers
 {
@@ -15,21 +14,33 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        private readonly IMapper _mapper;
+        private List<User> _users;
+
+        public UserController(IMapper mapper)
+        {
+            _mapper = mapper;
+            _users = new List<User>();
+        }
 
         [HttpGet]
         [Route("")]
-        public async Task<ActionResult<List<User>>> Get([FromServices] DataContext contexto)
+        public async Task<ActionResult<List<UserDto>>> Get([FromServices] DataContext contexto)
         {
 
-            try
+           
+            _users = await UserService.GetAllUsers(contexto);
+            List<UserDto> usersDto = new List<UserDto>();
+            foreach(User user in _users)
             {
-            var users = await UserService.GetAllUsers(contexto);
-            return Ok(users);
+                usersDto.Add(_mapper.Map<User, UserDto>(user));
             }
-            catch
-            {
-                return BadRequest(new { message = "Não foi possível buscar os usuários" });
-            }
+
+                return usersDto;
+            
+            
+                //return BadRequest(new { message = "Não foi possível buscar os usuários" });
+            
         }
 
         [HttpGet]
@@ -42,6 +53,7 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
             try
             {
                 var user = await UserService.GetUser(context, id);
+
                 if (user == null)
                     return NotFound(new { message = "Usuário não encontrado" });
 

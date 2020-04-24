@@ -1,0 +1,9 @@
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.Views\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.deps.json
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.Views\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.Views\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.Views\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.csproj.CoreCompileInputs.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.Views\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.AssemblyInfoInputs.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.Views\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.AssemblyInfo.cs
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.Views\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.Views\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.Views\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.csprojAssemblyReference.cache

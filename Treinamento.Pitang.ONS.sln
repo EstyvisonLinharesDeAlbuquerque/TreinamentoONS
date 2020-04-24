@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Treinamento.Pitang.ONS.Serv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Treinamento.Pitang.ONS.Interfaces", "Pitang.Treinamento.ONS.Interfaces\Treinamento.Pitang.ONS.Interfaces.csproj", "{8F74C14A-FD42-4B61-AB7E-9235C1AB494D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento.Pitang.ONS.Repository", "Pitang.Treinamento.ONS.Repository\Treinamento.Pitang.ONS.Repository.csproj", "{309E974F-52EA-495D-ADD4-CB6A5F8EDC77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Treinamento.Pitang.ONS.Repository", "Pitang.Treinamento.ONS.Repository\Treinamento.Pitang.ONS.Repository.csproj", "{309E974F-52EA-495D-ADD4-CB6A5F8EDC77}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Impl", "Impl", "{F4706898-15F2-43A9-84BE-4D99A023D89D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento.PItang.ONS.AutoMapper", "Treinamento.PItang.ONS.AutoMapper\Treinamento.PItang.ONS.AutoMapper.csproj", "{3AC27371-50C4-433C-AA6B-55209DCF5534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento.Pitang.ONS.Views", "Treinamento.Pitang.ONS.Views\Treinamento.Pitang.ONS.Views.csproj", "{3F23A13D-0723-4DAD-9212-9A07405DEA1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,14 @@ Global
 		{309E974F-52EA-495D-ADD4-CB6A5F8EDC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{309E974F-52EA-495D-ADD4-CB6A5F8EDC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{309E974F-52EA-495D-ADD4-CB6A5F8EDC77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC27371-50C4-433C-AA6B-55209DCF5534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC27371-50C4-433C-AA6B-55209DCF5534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC27371-50C4-433C-AA6B-55209DCF5534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC27371-50C4-433C-AA6B-55209DCF5534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F23A13D-0723-4DAD-9212-9A07405DEA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F23A13D-0723-4DAD-9212-9A07405DEA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F23A13D-0723-4DAD-9212-9A07405DEA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F23A13D-0723-4DAD-9212-9A07405DEA1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +72,8 @@ Global
 		{8F74C14A-FD42-4B61-AB7E-9235C1AB494D} = {95049BDF-6EB0-4523-BAC6-F2FE5C93C6BB}
 		{309E974F-52EA-495D-ADD4-CB6A5F8EDC77} = {95049BDF-6EB0-4523-BAC6-F2FE5C93C6BB}
 		{F4706898-15F2-43A9-84BE-4D99A023D89D} = {95049BDF-6EB0-4523-BAC6-F2FE5C93C6BB}
+		{3AC27371-50C4-433C-AA6B-55209DCF5534} = {95049BDF-6EB0-4523-BAC6-F2FE5C93C6BB}
+		{3F23A13D-0723-4DAD-9212-9A07405DEA1C} = {95049BDF-6EB0-4523-BAC6-F2FE5C93C6BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3085D581-6624-4112-8B89-FEECE5C9A8A3}

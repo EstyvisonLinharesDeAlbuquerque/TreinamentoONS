@@ -130,3 +130,9 @@ C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.WebChat\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Data.pdb
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.WebChat\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Entities.pdb
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.WebChat\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Services.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.WebChat\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.WebChat\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.WebChat\bin\Debug\netcoreapp3.1\Treinamento.PItang.ONS.AutoMapper.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.WebChat\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.WebChat\bin\Debug\netcoreapp3.1\Treinamento.PItang.ONS.AutoMapper.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.WebChat\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Views.pdb

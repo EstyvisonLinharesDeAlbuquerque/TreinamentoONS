@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 
 namespace Pitang.Treinamento.ONS.Entities
 {
@@ -35,6 +34,13 @@ namespace Pitang.Treinamento.ONS.Entities
         [MaxLength(20, ErrorMessage = "Limite máximo atingido")]
         [MinLength(3, ErrorMessage = "Limite mínimo não atingido")]
         public String Password { get; set; }
+
+        public List<Contact> ContactsUser { get; set; }
+        public List<Messages> MessagesUser { get; set; }
+        public List<Story> StoriesUser { get; set; }
+
+
+
 
     }
 }

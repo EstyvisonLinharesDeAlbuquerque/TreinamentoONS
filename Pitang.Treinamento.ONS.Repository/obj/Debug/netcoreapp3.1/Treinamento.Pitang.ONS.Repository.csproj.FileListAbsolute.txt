@@ -1,9 +1,9 @@
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Repository\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.deps.json
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Repository\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.dll
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Repository\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.pdb
-C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Repository\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.csprojAssemblyReference.cache
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Repository\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.csproj.CoreCompileInputs.cache
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Repository\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.AssemblyInfoInputs.cache
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Repository\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.AssemblyInfo.cs
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Repository\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.dll
 C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Repository\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Pitang.Treinamento.ONS.Repository\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.csprojAssemblyReference.cache

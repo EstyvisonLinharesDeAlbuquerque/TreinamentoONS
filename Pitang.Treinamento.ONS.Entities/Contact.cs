@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 
 namespace Pitang.Treinamento.ONS.Entities
 {
@@ -20,13 +19,6 @@ namespace Pitang.Treinamento.ONS.Entities
         [MinLength(9, ErrorMessage = "Limite mínimo não atingido")]
         public String Number { get; set; }
 
-        [Required(ErrorMessage = "Este campo é obrigatório")]
-        [Range(1, int.MaxValue, ErrorMessage = "O campo deve ser maior ou igual a 1")]
-        public int IdOwner { get; set; }
-
-        [Required(ErrorMessage = "Este campo é obrigatório")]
-        [Range(1, int.MaxValue, ErrorMessage = "O campo deve ser maior ou igual a 1")]
-        public int IdTarget { get; set; }
 
     }
 }
