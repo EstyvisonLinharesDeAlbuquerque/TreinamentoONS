@@ -28,36 +28,39 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
         public async Task<ActionResult<List<UserDto>>> Get([FromServices] DataContext contexto)
         {
 
-           
-            _users = await UserService.GetAllUsers(contexto);
-            List<UserDto> usersDto = new List<UserDto>();
-            foreach(User user in _users)
+            try
             {
-                usersDto.Add(_mapper.Map<User, UserDto>(user));
-            }
-
+                _users = await UserService.GetAllUsers(contexto);
+                List<UserDto> usersDto = new List<UserDto>();
+                foreach (User user in _users)
+                {
+                    usersDto.Add(_mapper.Map<User, UserDto>(user));
+                }
                 return usersDto;
-            
-            
-                //return BadRequest(new { message = "Não foi possível buscar os usuários" });
-            
+            }
+            catch
+            {
+                return BadRequest(new { message = "Não foi possível buscar os usuários" });
+
+            }
         }
 
         [HttpGet]
         [Route("{id:int}")]
         //[Authorize(Roles = "usuario")]
-        public async Task<ActionResult<User>> GetById(
+        public async Task<ActionResult<UserDto>> GetById(
             int id,
             [FromServices] DataContext context)
         {
             try
             {
                 var user = await UserService.GetUser(context, id);
+                UserDto userDto = _mapper.Map<User, UserDto>(user);
 
-                if (user == null)
+                if (userDto == null)
                     return NotFound(new { message = "Usuário não encontrado" });
 
-                return Ok(user);
+                return userDto;
 
             }
             catch
@@ -69,17 +72,19 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
 
         [HttpPost]
         [Route("")]
-        public async Task<ActionResult<User>> Post([FromBody] User model,
+        public async Task<ActionResult<UserDto>> Post([FromBody] UserDto modelDto,
             [FromServices] DataContext context)
         {
             try
             {
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
+                User user = _mapper.Map<UserDto, User>(modelDto);
 
-                context.Users.Add(model);
+                context.Users.Add(user);
                 await context.SaveChangesAsync();
-                return Ok(model);
+               
+                return Ok("Adicionado com sucesso");
 
             }
             catch
@@ -92,13 +97,13 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
         [HttpPut]
         [Route("{id:int}")]
         //[Authorize(Roles = "usuario")]
-        public async Task<ActionResult<User>> Put(
+        public async Task<ActionResult<UserDto>> Put(
            int id,
-           [FromBody] User model,
+           [FromBody] UserDto modelDto,
            [FromServices] DataContext context)
         {
-
-            if (id != model.Id)
+            User user = _mapper.Map<UserDto, User>(modelDto);
+            if (id != user.Id)
             {
                 return NotFound(new { message = "Usuário não encontrado!" });
             }
@@ -109,9 +114,9 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
 
             try
             {
-                context.Entry(model).State = EntityState.Modified;
+                context.Entry(user).State = EntityState.Modified;
                 await context.SaveChangesAsync();
-                return Ok(model);
+                return Ok("Usuário atualizado com sucesso");
 
             }
             catch (DbUpdateConcurrencyException)
@@ -132,6 +137,7 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
             [FromServices] DataContext context
             )
         {
+            
             var user = await context.Users.FirstOrDefaultAsync(x => x.Id == id);
             if (user == null)
                 return NotFound(new { message = "Usuário não encontrado" });
