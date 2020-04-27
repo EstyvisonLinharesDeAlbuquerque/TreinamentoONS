@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Pitang.Treinamento.ONS.Data.Data;
 using Pitang.Treinamento.ONS.Entities;
 using Pitang.Treinamento.ONS.Services;
+using Treinamento.Pitang.ONS.Services;
 using Treinamento.Pitang.ONS.Views;
 
 namespace Treinamento.Pitang.ONS.WebChat.Controllers
@@ -16,11 +17,13 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
     {
         private readonly IMapper _mapper;
         private List<User> _users;
+        private IUserService _userService;
 
-        public UserController(IMapper mapper)
+        public UserController(IMapper mapper, IUserService userService)
         {
             _mapper = mapper;
             _users = new List<User>();
+            _userService = userService;
         }
 
         [HttpGet]
@@ -30,7 +33,7 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
 
             try
             {
-                _users = await UserService.GetAllUsers(contexto);
+                _users = await _userService.GetAllUsers(contexto);
                 List<UserDto> usersDto = new List<UserDto>();
                 foreach (User user in _users)
                 {

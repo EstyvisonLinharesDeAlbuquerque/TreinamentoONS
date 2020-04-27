@@ -8,7 +8,7 @@ namespace Pitang.Treinamento.ONS.Services
 {
     public class ContactService
     {
-        public static async Task<List<Contact>> GetAllUsers(
+        public static async Task<List<Contact>> GetAllContacts(
            DataContext context)
         {
 

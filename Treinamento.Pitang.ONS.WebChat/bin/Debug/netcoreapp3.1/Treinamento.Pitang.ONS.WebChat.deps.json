@@ -33,7 +33,7 @@
           "Treinamento.PItang.ONS.AutoMapper": "1.0.0",
           "Treinamento.Pitang.ONS.Data": "1.0.0",
           "Treinamento.Pitang.ONS.Entities": "1.0.0",
-          "Treinamento.Pitang.ONS.Services": "1.0.0",
+          "Treinamento.Pitang.ONS.ServicesImpl": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -2200,6 +2200,19 @@
         },
         "compile": {
           "Treinamento.Pitang.ONS.Services.dll": {}
+        }
+      },
+      "Treinamento.Pitang.ONS.ServicesImpl/1.0.0": {
+        "dependencies": {
+          "Treinamento.Pitang.ONS.Data": "1.0.0",
+          "Treinamento.Pitang.ONS.Entities": "1.0.0",
+          "Treinamento.Pitang.ONS.Services": "1.0.0"
+        },
+        "runtime": {
+          "Treinamento.Pitang.ONS.ServicesImpl.dll": {}
+        },
+        "compile": {
+          "Treinamento.Pitang.ONS.ServicesImpl.dll": {}
         }
       },
       "Treinamento.Pitang.ONS.Views/1.0.0": {
@@ -4945,6 +4958,11 @@
       "sha512": ""
     },
     "Treinamento.Pitang.ONS.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Treinamento.Pitang.ONS.ServicesImpl/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

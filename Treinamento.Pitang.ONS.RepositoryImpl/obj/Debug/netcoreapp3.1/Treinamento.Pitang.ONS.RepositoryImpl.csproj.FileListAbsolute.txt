@@ -1,0 +1,16 @@
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.RepositoryImpl.deps.json
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.RepositoryImpl.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.RepositoryImpl.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Entities.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Entities.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.RepositoryImpl.csprojAssemblyReference.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.RepositoryImpl.csproj.CoreCompileInputs.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.RepositoryImpl.AssemblyInfoInputs.cache
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.RepositoryImpl.AssemblyInfo.cs
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.RepositoryImpl.csproj.CopyComplete
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.RepositoryImpl.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.RepositoryImpl.pdb
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Data.dll
+C:\Users\Gedenilson\Desktop\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.RepositoryImpl\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Data.pdb

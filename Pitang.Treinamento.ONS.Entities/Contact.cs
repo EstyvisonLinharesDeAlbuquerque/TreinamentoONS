@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Treinamento.Pitang.ONS.Entities;
 
 namespace Pitang.Treinamento.ONS.Entities
 {
-    public class Contact
+    public class Contact : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
+        
 
         [Required(ErrorMessage = "Este campo é obrigatório")]
         [MaxLength(20, ErrorMessage = "Limite máximo atingido")]

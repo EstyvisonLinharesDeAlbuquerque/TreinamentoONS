@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Treinamento.Pitang.ONS.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Treinamento.Pitang.ONS.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.Pitang.ONS.Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Treinamento.Pitang.ONS.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Pitang.Treinamento.ONS.Entities/Treinamento.Pitang.ONS.Entities.csproj",
+      "msbuildProject": "../Pitang.Treinamento.ONS.Entities/Treinamento.Pitang.ONS.Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Treinamento.Pitang.ONS.Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Gedenilson\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj": {
+              "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,18 +1,18 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using Treinamento.Pitang.ONS.Entities;
 
 namespace Pitang.Treinamento.ONS.Entities
 {
     
-     public class Messages
+     public class Messages : BaseEntity
         {
             public Messages()
             {
                 this.Publicate = DateTime.Now;
             }
 
-            [Key]
-            public int Id { get; set; }
+           
 
 
             [Required(ErrorMessage = "Este campo é obrigatório")]

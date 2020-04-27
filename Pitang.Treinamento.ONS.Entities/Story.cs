@@ -1,9 +1,10 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using Treinamento.Pitang.ONS.Entities;
 
 namespace Pitang.Treinamento.ONS.Entities
 {
-    public class Story
+    public class Story : BaseEntity
     {
         public Story()
         {
@@ -11,8 +12,7 @@ namespace Pitang.Treinamento.ONS.Entities
 
         }
 
-        [Key]
-        public int Id { get; set; }
+        
 
 
 

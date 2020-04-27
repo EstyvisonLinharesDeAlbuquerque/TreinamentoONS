@@ -19,7 +19,7 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
         {
             try
             {
-                var contacts = await ContactService.GetAllUsers(context);
+                var contacts = await ContactService.GetAllContacts(context);
                 return Ok(contacts);
 
             }

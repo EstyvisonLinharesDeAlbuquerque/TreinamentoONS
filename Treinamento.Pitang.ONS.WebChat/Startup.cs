@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Pitang.Treinamento.ONS.Data.Data;
+using Pitang.Treinamento.ONS.Services;
+using Treinamento.Pitang.ONS.Services;
 using Treinamento.PItang.ONS.AutoMapper;
 
 namespace Treinamento.Pitang.ONS.WebChat
@@ -25,6 +27,7 @@ namespace Treinamento.Pitang.ONS.WebChat
             services.AddControllers();
             //services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
             services.AddDbContext<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString"), b => b.MigrationsAssembly("Treinamento.Pitang.ONS.WebChat")));
+            services.AddScoped<IUserService, UserService>();
 
             var mappingConfig = new MapperConfiguration(mc =>
             {
