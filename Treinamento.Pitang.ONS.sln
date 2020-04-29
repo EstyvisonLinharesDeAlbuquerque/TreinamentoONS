@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Treinamento.Pitang.ONS.View
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Treinamento.Pitang.ONS.RepositoryImpl", "Treinamento.Pitang.ONS.RepositoryImpl\Treinamento.Pitang.ONS.RepositoryImpl.csproj", "{D7C642B0-44C5-4F58-A2A8-45E52955E344}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento.Pitang.ONS.Services", "Treinamento.Pitang.ONS.Services\Treinamento.Pitang.ONS.Services.csproj", "{5CB98660-BA78-435D-8014-A5AE0D3E240E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Treinamento.Pitang.ONS.Services", "Treinamento.Pitang.ONS.Services\Treinamento.Pitang.ONS.Services.csproj", "{5CB98660-BA78-435D-8014-A5AE0D3E240E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento.Pitang.ONS.UnitOfWork", "Treinamento.Pitang.ONS.UnitOfWork\Treinamento.Pitang.ONS.UnitOfWork.csproj", "{D6AA6E82-6B82-4519-8A81-054625750B3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{5CB98660-BA78-435D-8014-A5AE0D3E240E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CB98660-BA78-435D-8014-A5AE0D3E240E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CB98660-BA78-435D-8014-A5AE0D3E240E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AA6E82-6B82-4519-8A81-054625750B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AA6E82-6B82-4519-8A81-054625750B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AA6E82-6B82-4519-8A81-054625750B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AA6E82-6B82-4519-8A81-054625750B3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{3F23A13D-0723-4DAD-9212-9A07405DEA1C} = {95049BDF-6EB0-4523-BAC6-F2FE5C93C6BB}
 		{D7C642B0-44C5-4F58-A2A8-45E52955E344} = {95049BDF-6EB0-4523-BAC6-F2FE5C93C6BB}
 		{5CB98660-BA78-435D-8014-A5AE0D3E240E} = {95049BDF-6EB0-4523-BAC6-F2FE5C93C6BB}
+		{D6AA6E82-6B82-4519-8A81-054625750B3D} = {95049BDF-6EB0-4523-BAC6-F2FE5C93C6BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3085D581-6624-4112-8B89-FEECE5C9A8A3}

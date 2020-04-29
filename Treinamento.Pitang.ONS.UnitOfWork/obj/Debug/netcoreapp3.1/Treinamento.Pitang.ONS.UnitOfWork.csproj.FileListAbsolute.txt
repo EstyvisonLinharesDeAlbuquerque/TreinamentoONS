@@ -1,0 +1,16 @@
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.UnitOfWork.deps.json
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.UnitOfWork.dll
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.UnitOfWork.pdb
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Data.dll
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Entities.dll
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.dll
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Data.pdb
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Repository.pdb
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\bin\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.Entities.pdb
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.UnitOfWork.csprojAssemblyReference.cache
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.UnitOfWork.csproj.CoreCompileInputs.cache
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.UnitOfWork.AssemblyInfoInputs.cache
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.UnitOfWork.AssemblyInfo.cs
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.UnitOfWork.csproj.CopyComplete
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.UnitOfWork.dll
+D:\PitangONS\Treinamento.Pitang.ONS\Treinamento.Pitang.ONS.UnitOfWork\obj\Debug\netcoreapp3.1\Treinamento.Pitang.ONS.UnitOfWork.pdb

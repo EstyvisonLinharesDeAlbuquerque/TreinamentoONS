@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using Treinamento.Pitang.ONS.Entities;
 
 namespace Treinamento.Pitang.ONS.Views
 {
-    public class UserDto
+    public class UserDto : BaseEntity
     {
-        public int Id { get; set; }
         public String FirstName { get; set; }
         public String LastName { get; set; }
         public String UserName { get; set; }

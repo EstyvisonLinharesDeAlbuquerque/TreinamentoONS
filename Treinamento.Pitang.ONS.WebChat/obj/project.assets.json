@@ -2541,6 +2541,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "AutoMapper": "9.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Treinamento.Pitang.ONS.Entities": "1.0.0",
           "Treinamento.Pitang.ONS.Views": "1.0.0"
         },
@@ -2556,6 +2557,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Treinamento.Pitang.ONS.Entities": "1.0.0"
         },
         "compile": {
@@ -2568,6 +2570,9 @@
       "Treinamento.Pitang.ONS.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3"
+        },
         "compile": {
           "bin/placeholder/Treinamento.Pitang.ONS.Entities.dll": {}
         },
@@ -2575,10 +2580,41 @@
           "bin/placeholder/Treinamento.Pitang.ONS.Entities.dll": {}
         }
       },
+      "Treinamento.Pitang.ONS.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
+          "Treinamento.Pitang.ONS.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Treinamento.Pitang.ONS.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.Pitang.ONS.Repository.dll": {}
+        }
+      },
+      "Treinamento.Pitang.ONS.RepositoryImpl/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
+          "Treinamento.Pitang.ONS.Data": "1.0.0",
+          "Treinamento.Pitang.ONS.Entities": "1.0.0",
+          "Treinamento.Pitang.ONS.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Treinamento.Pitang.ONS.RepositoryImpl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Treinamento.Pitang.ONS.RepositoryImpl.dll": {}
+        }
+      },
       "Treinamento.Pitang.ONS.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Treinamento.Pitang.ONS.Data": "1.0.0",
           "Treinamento.Pitang.ONS.Entities": "1.0.0"
         },
@@ -2593,8 +2629,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Treinamento.Pitang.ONS.Data": "1.0.0",
           "Treinamento.Pitang.ONS.Entities": "1.0.0",
+          "Treinamento.Pitang.ONS.Repository": "1.0.0",
           "Treinamento.Pitang.ONS.Services": "1.0.0"
         },
         "compile": {
@@ -2607,6 +2645,10 @@
       "Treinamento.Pitang.ONS.Views/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
+          "Treinamento.Pitang.ONS.Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Treinamento.Pitang.ONS.Views.dll": {}
         },
@@ -8363,6 +8405,16 @@
       "path": "../Pitang.Treinamento.ONS.Entities/Treinamento.Pitang.ONS.Entities.csproj",
       "msbuildProject": "../Pitang.Treinamento.ONS.Entities/Treinamento.Pitang.ONS.Entities.csproj"
     },
+    "Treinamento.Pitang.ONS.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Pitang.Treinamento.ONS.Repository/Treinamento.Pitang.ONS.Repository.csproj",
+      "msbuildProject": "../Pitang.Treinamento.ONS.Repository/Treinamento.Pitang.ONS.Repository.csproj"
+    },
+    "Treinamento.Pitang.ONS.RepositoryImpl/1.0.0": {
+      "type": "project",
+      "path": "../Treinamento.Pitang.ONS.RepositoryImpl/Treinamento.Pitang.ONS.RepositoryImpl.csproj",
+      "msbuildProject": "../Treinamento.Pitang.ONS.RepositoryImpl/Treinamento.Pitang.ONS.RepositoryImpl.csproj"
+    },
     "Treinamento.Pitang.ONS.Services/1.0.0": {
       "type": "project",
       "path": "../Treinamento.Pitang.ONS.Services/Treinamento.Pitang.ONS.Services.csproj",
@@ -8390,23 +8442,25 @@
       "Treinamento.PItang.ONS.AutoMapper >= 1.0.0",
       "Treinamento.Pitang.ONS.Data >= 1.0.0",
       "Treinamento.Pitang.ONS.Entities >= 1.0.0",
+      "Treinamento.Pitang.ONS.Repository >= 1.0.0",
+      "Treinamento.Pitang.ONS.RepositoryImpl >= 1.0.0",
       "Treinamento.Pitang.ONS.ServicesImpl >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gedenilson\\.nuget\\packages\\": {}
+    "C:\\Users\\titoa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.WebChat\\Treinamento.Pitang.ONS.WebChat.csproj",
+      "projectUniqueName": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.WebChat\\Treinamento.Pitang.ONS.WebChat.csproj",
       "projectName": "Treinamento.Pitang.ONS.WebChat",
-      "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.WebChat\\Treinamento.Pitang.ONS.WebChat.csproj",
-      "packagesPath": "C:\\Users\\Gedenilson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.WebChat\\obj\\",
+      "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.WebChat\\Treinamento.Pitang.ONS.WebChat.csproj",
+      "packagesPath": "C:\\Users\\titoa\\.nuget\\packages\\",
+      "outputPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.WebChat\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gedenilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\titoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8419,17 +8473,23 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Data\\Treinamento.Pitang.ONS.Data.csproj": {
-              "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Data\\Treinamento.Pitang.ONS.Data.csproj"
+            "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Data\\Treinamento.Pitang.ONS.Data.csproj": {
+              "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Data\\Treinamento.Pitang.ONS.Data.csproj"
             },
-            "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj": {
-              "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj"
+            "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj": {
+              "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj"
             },
-            "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Services\\Treinamento.Pitang.ONS.ServicesImpl.csproj": {
-              "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Services\\Treinamento.Pitang.ONS.ServicesImpl.csproj"
+            "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Repository\\Treinamento.Pitang.ONS.Repository.csproj": {
+              "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Repository\\Treinamento.Pitang.ONS.Repository.csproj"
             },
-            "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\Treinamento.PItang.ONS.AutoMapper.csproj": {
-              "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\Treinamento.PItang.ONS.AutoMapper.csproj"
+            "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Services\\Treinamento.Pitang.ONS.ServicesImpl.csproj": {
+              "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Services\\Treinamento.Pitang.ONS.ServicesImpl.csproj"
+            },
+            "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\Treinamento.PItang.ONS.AutoMapper.csproj": {
+              "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\Treinamento.PItang.ONS.AutoMapper.csproj"
+            },
+            "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.RepositoryImpl\\Treinamento.Pitang.ONS.RepositoryImpl.csproj": {
+              "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.RepositoryImpl\\Treinamento.Pitang.ONS.RepositoryImpl.csproj"
             }
           }
         }

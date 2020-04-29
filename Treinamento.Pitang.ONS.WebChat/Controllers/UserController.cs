@@ -16,13 +16,11 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
     public class UserController : ControllerBase
     {
         private readonly IMapper _mapper;
-        private List<User> _users;
+        private IEnumerable<User> _users;
         private IUserService _userService;
-
         public UserController(IMapper mapper, IUserService userService)
         {
             _mapper = mapper;
-            _users = new List<User>();
             _userService = userService;
         }
 
@@ -30,24 +28,16 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
         [Route("")]
         public async Task<ActionResult<List<UserDto>>> Get([FromServices] DataContext contexto)
         {
-
-            try
+            _users = await _userService.GetAllUsers();
+            List<UserDto> usersDto = new List<UserDto>();
+            foreach (User user in _users)
             {
-                _users = await _userService.GetAllUsers(contexto);
-                List<UserDto> usersDto = new List<UserDto>();
-                foreach (User user in _users)
-                {
-                    usersDto.Add(_mapper.Map<User, UserDto>(user));
-                }
-                return usersDto;
+                usersDto.Add(_mapper.Map<User, UserDto>(user));
             }
-            catch
-            {
-                return BadRequest(new { message = "Não foi possível buscar os usuários" });
-
-            }
+            return usersDto;
         }
 
+        
         [HttpGet]
         [Route("{id:int}")]
         //[Authorize(Roles = "usuario")]
@@ -55,46 +45,30 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
             int id,
             [FromServices] DataContext context)
         {
-            try
-            {
-                var user = await UserService.GetUser(context, id);
-                UserDto userDto = _mapper.Map<User, UserDto>(user);
+           
+            var user = await _userService.GetUser(id);
+            
+            UserDto userDto = _mapper.Map<User, UserDto>(user);
 
-                if (userDto == null)
-                    return NotFound(new { message = "Usuário não encontrado" });
+            if (userDto == null)
+                return NotFound(new { message = "Usuário não encontrado" });
 
-                return userDto;
-
-            }
-            catch
-            {
-                return BadRequest(new { message = "Não foi possível retornar o usuário" });
-            }
-
+            return userDto;
         }
-
+        
+        
         [HttpPost]
         [Route("")]
         public async Task<ActionResult<UserDto>> Post([FromBody] UserDto modelDto,
             [FromServices] DataContext context)
         {
-            try
-            {
-                if (!ModelState.IsValid)
-                    return BadRequest(ModelState);
-                User user = _mapper.Map<UserDto, User>(modelDto);
+        if (!ModelState.IsValid)
+            return BadRequest(ModelState);
+        User user = _mapper.Map<UserDto, User>(modelDto);
 
-                context.Users.Add(user);
-                await context.SaveChangesAsync();
-               
-                return Ok("Adicionado com sucesso");
-
-            }
-            catch
-            {
-                return BadRequest(new { message = "Não foi possível criar o usuário" });
-
-            }
+        _userService.Add(user);
+        await context.SaveChangesAsync();
+        return Ok("Adicionado com sucesso");
         }
 
         [HttpPut]
@@ -114,22 +88,9 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
             {
                 return BadRequest(ModelState);
             }
-
-            try
-            {
-                context.Entry(user).State = EntityState.Modified;
-                await context.SaveChangesAsync();
-                return Ok("Usuário atualizado com sucesso");
-
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                return BadRequest(new { message = "Uma alteração já está sendo realizada" });
-            }
-            catch
-            {
-                return BadRequest(new { message = "Não foi possível alterar o usuário." });
-            }
+            context.Entry(user).State = EntityState.Modified;
+            await context.SaveChangesAsync();
+            return Ok("Usuário atualizado com sucesso");
         }
 
         [HttpDelete]
@@ -141,24 +102,35 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
             )
         {
             
-            var user = await context.Users.FirstOrDefaultAsync(x => x.Id == id);
-            if (user == null)
-                return NotFound(new { message = "Usuário não encontrado" });
-
-            try
-            {
-                context.Users.Remove(user);
-                await context.SaveChangesAsync();
-
-                return Ok(new { message = "Usuário deletado com sucesso!" });
-            }
-            catch
-            {
-
-                return BadRequest(new { message = "Não foi possível excluir o usuário." });
-            }
+        var user = await context.Users.FirstOrDefaultAsync(x => x.Id == id);
+        if (user == null)
+            return NotFound(new { message = "Usuário não encontrado" });
+        
+        context.Users.Remove(user);
+        await context.SaveChangesAsync();
+                
+        return Ok(new { message = "Usuário deletado com sucesso!" });
 
         }
-
     }
 }
+
+          
+            
+
+
+            
+             
+
+
+
+          
+        
+
+
+           
+               
+                
+
+            
+

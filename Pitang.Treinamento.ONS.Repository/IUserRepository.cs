@@ -7,7 +7,7 @@ namespace Treinamento.Pitang.ONS.Repository
 {
     public interface IUserRepository : IRepository<User>
     {
-        IList<User> listUsers();
+      
 
     }
 }

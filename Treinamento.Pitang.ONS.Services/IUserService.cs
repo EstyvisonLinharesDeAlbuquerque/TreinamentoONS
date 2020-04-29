@@ -9,7 +9,11 @@ namespace Treinamento.Pitang.ONS.Services
 {
     public interface IUserService
     {
-        public abstract Task<List<User>> GetAllUsers(DataContext context);
-      
+        Task<IEnumerable<User>> GetAllUsers();
+        Task<User> GetUser(int id);
+
+        User Add(User user);
+
+        Task<User> AddAsync(User user);
     }
 }

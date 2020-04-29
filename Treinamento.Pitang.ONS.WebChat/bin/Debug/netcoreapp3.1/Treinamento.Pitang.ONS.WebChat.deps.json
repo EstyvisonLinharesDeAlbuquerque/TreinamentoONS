@@ -33,6 +33,8 @@
           "Treinamento.PItang.ONS.AutoMapper": "1.0.0",
           "Treinamento.Pitang.ONS.Data": "1.0.0",
           "Treinamento.Pitang.ONS.Entities": "1.0.0",
+          "Treinamento.Pitang.ONS.Repository": "1.0.0",
+          "Treinamento.Pitang.ONS.RepositoryImpl": "1.0.0",
           "Treinamento.Pitang.ONS.ServicesImpl": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -2160,6 +2162,7 @@
       "Treinamento.PItang.ONS.AutoMapper/1.0.0": {
         "dependencies": {
           "AutoMapper": "9.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Treinamento.Pitang.ONS.Entities": "1.0.0",
           "Treinamento.Pitang.ONS.Views": "1.0.0"
         },
@@ -2173,6 +2176,7 @@
       "Treinamento.Pitang.ONS.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Treinamento.Pitang.ONS.Entities": "1.0.0"
         },
         "runtime": {
@@ -2183,6 +2187,9 @@
         }
       },
       "Treinamento.Pitang.ONS.Entities/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3"
+        },
         "runtime": {
           "Treinamento.Pitang.ONS.Entities.dll": {}
         },
@@ -2190,8 +2197,35 @@
           "Treinamento.Pitang.ONS.Entities.dll": {}
         }
       },
+      "Treinamento.Pitang.ONS.Repository/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
+          "Treinamento.Pitang.ONS.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Treinamento.Pitang.ONS.Repository.dll": {}
+        },
+        "compile": {
+          "Treinamento.Pitang.ONS.Repository.dll": {}
+        }
+      },
+      "Treinamento.Pitang.ONS.RepositoryImpl/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
+          "Treinamento.Pitang.ONS.Data": "1.0.0",
+          "Treinamento.Pitang.ONS.Entities": "1.0.0",
+          "Treinamento.Pitang.ONS.Repository": "1.0.0"
+        },
+        "runtime": {
+          "Treinamento.Pitang.ONS.RepositoryImpl.dll": {}
+        },
+        "compile": {
+          "Treinamento.Pitang.ONS.RepositoryImpl.dll": {}
+        }
+      },
       "Treinamento.Pitang.ONS.Services/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Treinamento.Pitang.ONS.Data": "1.0.0",
           "Treinamento.Pitang.ONS.Entities": "1.0.0"
         },
@@ -2204,8 +2238,10 @@
       },
       "Treinamento.Pitang.ONS.ServicesImpl/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Treinamento.Pitang.ONS.Data": "1.0.0",
           "Treinamento.Pitang.ONS.Entities": "1.0.0",
+          "Treinamento.Pitang.ONS.Repository": "1.0.0",
           "Treinamento.Pitang.ONS.Services": "1.0.0"
         },
         "runtime": {
@@ -2216,6 +2252,10 @@
         }
       },
       "Treinamento.Pitang.ONS.Views/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
+          "Treinamento.Pitang.ONS.Entities": "1.0.0"
+        },
         "runtime": {
           "Treinamento.Pitang.ONS.Views.dll": {}
         },
@@ -4953,6 +4993,16 @@
       "sha512": ""
     },
     "Treinamento.Pitang.ONS.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Treinamento.Pitang.ONS.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Treinamento.Pitang.ONS.RepositoryImpl/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

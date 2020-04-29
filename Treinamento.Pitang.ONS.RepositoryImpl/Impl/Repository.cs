@@ -11,10 +11,10 @@ using Treinamento.Pitang.ONS.Repository;
 
 namespace Treinamento.Pitang.ONS.RepositoryImpl
 {
-    public class Repository<T> : IRepository<T> where T : BaseEntity
+    public abstract class Repository<T> : IRepository<T> where T : BaseEntity
     {
         protected DataContext _context;
-        protected DbSet<T> _entities;
+        protected DbSet<T> _entities; 
 
         public Repository(DataContext dbContext)
         {
@@ -24,12 +24,14 @@ namespace Treinamento.Pitang.ONS.RepositoryImpl
 
         public T Add(T entity)
         {
-            throw new NotImplementedException();
+            _entities.Add(entity);
+            return entity;
         }
 
-        public Task<T> AddAsync(T entity)
+        public async Task<T> AddAsync(T entity)
         {
-            throw new NotImplementedException();
+            await _entities.AddAsync(entity);
+            return entity;
         }
 
         public void Delete(T id)
@@ -37,21 +39,21 @@ namespace Treinamento.Pitang.ONS.RepositoryImpl
             throw new NotImplementedException();
         }
 
-        public IEnumerable<T> FindAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<T> FindBy(Expression<Func<T, bool>> predicate)
+        public async Task<IEnumerable<T>> FindAllAsync()
         {
             var query = _entities.AsQueryable();
-
-            query = query.Where(predicate);
-
-            return query.ToList();
+            query = query.Select(e => e);
+            return await query.ToListAsync();
         }
 
-        public void UnDelete(T id)
+        
+        public async Task<IEnumerable<T>> FindBy(Expression<Func<T, bool>> predicate)
+        {
+            var query = _entities.AsQueryable();
+            query = query.Where(predicate);
+            return await query.ToListAsync();
+        }
+        public void UnDelete(T entity)
         {
             throw new NotImplementedException();
         }
@@ -62,3 +64,6 @@ namespace Treinamento.Pitang.ONS.RepositoryImpl
         }
     }
 }
+
+
+

@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Gedenilson\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Gedenilson\\.nuget\\packages"
+      "C:\\Users\\titoa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\titoa\\.nuget\\packages"
     ]
   }
 }

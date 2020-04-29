@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\Treinamento.PItang.ONS.AutoMapper.csproj": {}
+    "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\Treinamento.PItang.ONS.AutoMapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj": {
+    "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj",
+        "projectUniqueName": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj",
         "projectName": "Treinamento.Pitang.ONS.Entities",
-        "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj",
-        "packagesPath": "C:\\Users\\Gedenilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\obj\\",
+        "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj",
+        "packagesPath": "C:\\Users\\titoa\\.nuget\\packages\\",
+        "outputPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gedenilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\titoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,17 +62,17 @@
         }
       }
     },
-    "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\Treinamento.PItang.ONS.AutoMapper.csproj": {
+    "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\Treinamento.PItang.ONS.AutoMapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\Treinamento.PItang.ONS.AutoMapper.csproj",
+        "projectUniqueName": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\Treinamento.PItang.ONS.AutoMapper.csproj",
         "projectName": "Treinamento.PItang.ONS.AutoMapper",
-        "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\Treinamento.PItang.ONS.AutoMapper.csproj",
-        "packagesPath": "C:\\Users\\Gedenilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\obj\\",
+        "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\Treinamento.PItang.ONS.AutoMapper.csproj",
+        "packagesPath": "C:\\Users\\titoa\\.nuget\\packages\\",
+        "outputPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.PItang.ONS.AutoMapper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gedenilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\titoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,11 +85,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj": {
-                "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj"
+              "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj": {
+                "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj"
               },
-              "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.Views\\Treinamento.Pitang.ONS.Views.csproj": {
-                "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.Views\\Treinamento.Pitang.ONS.Views.csproj"
+              "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.Views\\Treinamento.Pitang.ONS.Views.csproj": {
+                "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.Views\\Treinamento.Pitang.ONS.Views.csproj"
               }
             }
           }
@@ -100,6 +106,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
             }
           },
           "imports": [
@@ -121,17 +131,17 @@
         }
       }
     },
-    "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.Views\\Treinamento.Pitang.ONS.Views.csproj": {
+    "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.Views\\Treinamento.Pitang.ONS.Views.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.Views\\Treinamento.Pitang.ONS.Views.csproj",
+        "projectUniqueName": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.Views\\Treinamento.Pitang.ONS.Views.csproj",
         "projectName": "Treinamento.Pitang.ONS.Views",
-        "projectPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.Views\\Treinamento.Pitang.ONS.Views.csproj",
-        "packagesPath": "C:\\Users\\Gedenilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gedenilson\\Desktop\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.Views\\obj\\",
+        "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.Views\\Treinamento.Pitang.ONS.Views.csproj",
+        "packagesPath": "C:\\Users\\titoa\\.nuget\\packages\\",
+        "outputPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Treinamento.Pitang.ONS.Views\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gedenilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\titoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -143,7 +153,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj": {
+                "projectPath": "D:\\PitangONS\\Treinamento.Pitang.ONS\\Pitang.Treinamento.ONS.Entities\\Treinamento.Pitang.ONS.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -154,6 +168,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

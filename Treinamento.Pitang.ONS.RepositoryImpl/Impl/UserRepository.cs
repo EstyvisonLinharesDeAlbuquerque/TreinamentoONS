@@ -10,13 +10,6 @@ namespace Treinamento.Pitang.ONS.RepositoryImpl
     public class UserRepository : Repository<User>, IUserRepository
     {
         public UserRepository(DataContext dbContext) : base(dbContext)
-        {
-
-        }
-
-        public IList<User> listUsers()
-        {
-            throw new NotImplementedException();
-        }
+        { }
     }
 }

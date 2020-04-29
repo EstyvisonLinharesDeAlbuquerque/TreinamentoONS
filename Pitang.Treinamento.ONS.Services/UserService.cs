@@ -2,28 +2,44 @@
 using Pitang.Treinamento.ONS.Data.Data;
 using Pitang.Treinamento.ONS.Entities;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using Treinamento.Pitang.ONS.Repository;
 using Treinamento.Pitang.ONS.Services;
 
 namespace Pitang.Treinamento.ONS.Services
 {
      public class UserService : IUserService
     {
-        public async Task<List<User>> GetAllUsers(
-           DataContext context)
-        {
+        private IUserRepository _repository;
 
-            var users = await context.Users.AsNoTracking().ToListAsync();
+        public UserService(IUserRepository repository)
+        {
+            _repository = repository;
+        }
+        public async Task<IEnumerable<User>> GetAllUsers()
+        {
+            IEnumerable<User> users;
+            users = await _repository.FindAllAsync();
             return users;
         }
 
-        public static async Task<User> GetUser(
-           DataContext context,
-           int id)
+        public async Task<User> GetUser(int id)
         {
-            var user = await context.Users.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
-            return user;
+           
+           var user = await _repository.FindBy(x => x.Id == id);
+           return user.FirstOrDefault();
+        }
+        
+        public User Add(User user)
+        {
+            return _repository.Add(user);
         }
 
+        public async Task<User> AddAsync(User user)
+        {
+            return await _repository.AddAsync(user);
+        }
     }
 }
+//x => x.Id == id

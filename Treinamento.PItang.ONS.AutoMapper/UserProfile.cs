@@ -12,6 +12,8 @@ namespace Treinamento.PItang.ONS.AutoMapper
             CreateMap<User, UserDto>()
                 .ForMember(dest => dest.Id, opts => opts.MapFrom(src => src.Id)).ReverseMap();
             CreateMap<User, UserDto>()
+                .ForMember(dest => dest.IsDeleted, opts => opts.MapFrom(src => src.IsDeleted)).ReverseMap();
+            CreateMap<User, UserDto>()
                 .ForMember(dest => dest.FirstName, opts => opts.MapFrom(src => src.FirstName)).ReverseMap();
             CreateMap<User, UserDto>()
                 .ForMember(dest => dest.LastName, opts => opts.MapFrom(src => src.LastName)).ReverseMap();

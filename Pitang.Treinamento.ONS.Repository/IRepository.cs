@@ -13,7 +13,8 @@ namespace Treinamento.Pitang.ONS.Repository
         T Update(T entity);
         void Delete(T id);
         void UnDelete(T id);
-        IEnumerable<T> FindAll();
-        IEnumerable<T> FindBy(Expression<Func<T, bool>> predicate);
+        Task<IEnumerable<T>> FindAllAsync();
+        Task<IEnumerable<T>> FindBy(Expression<Func<T, bool>> predicate);
+       
     }
 }

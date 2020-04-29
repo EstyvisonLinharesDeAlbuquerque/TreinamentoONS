@@ -19,8 +19,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Pitang.Treinamento.ONS.Data\Treinamento.Pitang.ONS.Data.csproj" />
     <ProjectReference Include="..\Pitang.Treinamento.ONS.Entities\Treinamento.Pitang.ONS.Entities.csproj" />
+    <ProjectReference Include="..\Pitang.Treinamento.ONS.Repository\Treinamento.Pitang.ONS.Repository.csproj" />
     <ProjectReference Include="..\Pitang.Treinamento.ONS.Services\Treinamento.Pitang.ONS.ServicesImpl.csproj" />
     <ProjectReference Include="..\Treinamento.PItang.ONS.AutoMapper\Treinamento.PItang.ONS.AutoMapper.csproj" />
+    <ProjectReference Include="..\Treinamento.Pitang.ONS.RepositoryImpl\Treinamento.Pitang.ONS.RepositoryImpl.csproj" />
   </ItemGroup>
 
 
