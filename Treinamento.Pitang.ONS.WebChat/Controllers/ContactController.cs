@@ -1,10 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pitang.Treinamento.ONS.Data.Data;
 using Pitang.Treinamento.ONS.Entities;
 using Pitang.Treinamento.ONS.Services;
+using Treinamento.Pitang.ONS.Services;
+using Treinamento.Pitang.ONS.Views;
 
 namespace Treinamento.Pitang.ONS.WebChat.Controllers
 {
@@ -12,58 +15,72 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
     [ApiController]
     public class ContactController : ControllerBase
     {
+        private readonly IMapper _mapper;
+        private IEnumerable<Contact> _contacts;
+        private IContactService _contactService;
+        public ContactController(IMapper mapper, IContactService contactService)
+        {
+            _mapper = mapper;
+            _contactService = contactService;
+        }
+
         [HttpGet]
         [Route("")]
-        public async Task<ActionResult<List<Contact>>> Get(
+        public async Task<ActionResult<List<ContactDto>>> Get()
+        {
+            _contacts = await _contactService.GetAllContacts();
+            List<ContactDto> contactsDto = new List<ContactDto>();
+            foreach (Contact contact in _contacts)
+            {
+                contactsDto.Add(_mapper.Map<Contact, ContactDto>(contact));
+            }
+            return contactsDto;
+        }
+
+        
+        [HttpGet]
+        [Route("{id:int}")]
+        //[Authorize(Roles = "usuario")]
+        public async Task<ActionResult<ContactDto>> GetById(
+            int id,
             [FromServices] DataContext context)
         {
-            try
-            {
-                var contacts = await ContactService.GetAllContacts(context);
-                return Ok(contacts);
 
-            }
-            catch
-            {
-                return BadRequest(new { message = "Não foi possível buscar os contatos" });
-            }
+            var contact = await _contactService.GetContact(id);
 
+            ContactDto contactDto = _mapper.Map<Contact, ContactDto>(contact);
+
+            if (contactDto == null)
+                return NotFound(new { message = "Contato não encontrado" });
+
+            return contactDto;
         }
-
+        
+        
         [HttpPost]
         [Route("")]
-        public async Task<ActionResult<Contact>> Post(
-            [FromBody] Contact model,
-            [FromServices] DataContext context
-            )
+        public async Task<ActionResult<ContactDto>> Post([FromBody]ContactDto modelDto,
+            [FromServices] DataContext context)
         {
-            try
-            {
-                if (!ModelState.IsValid)
-                    return BadRequest(ModelState);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            Contact contact = _mapper.Map<ContactDto, Contact>(modelDto);
 
-                context.Contacts.Add(model);
-                await context.SaveChangesAsync();
-                return Ok(model);
-
-            }
-            catch
-            {
-                return BadRequest(new { message = "Não foi possível criar o contato" });
-
-            }
+            _contactService.Add(contact);
+            await context.SaveChangesAsync();
+            var newContactDto = _mapper.Map<Contact, ContactDto>(await _contactService.GetContact(contact.Id));
+            return newContactDto;
         }
 
+      
         [HttpPut]
         [Route("{id:int}")]
         //[Authorize(Roles = "usuario")]
-        public async Task<ActionResult<Contact>> Put(
-           int id,
-           [FromBody] Contact model,
-           [FromServices] DataContext context)
+        public async Task<ActionResult<ContactDto>> Put(int id, [FromBody] ContactDto modelDto)
         {
 
-            if (id != model.Id)
+            Contact contact = _mapper.Map<ContactDto, Contact>(modelDto);
+            if (id != contact.Id)
             {
                 return NotFound(new { message = "Contato não encontrado!" });
             }
@@ -72,48 +89,26 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
                 return BadRequest(ModelState);
             }
 
-            try
-            {
-                context.Entry(model).State = EntityState.Modified;
-                await context.SaveChangesAsync();
-                return Ok(model);
+            var newContactDto = _mapper.Map<Contact, ContactDto>(await _contactService.Update(contact));
 
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                return BadRequest(new { message = "Uma alteração já está sendo realizada" });
-            }
-            catch
-            {
-                return BadRequest(new { message = "Não foi possível alterar o usuário." });
-            }
+            return newContactDto;
         }
+        
+       [HttpDelete]
+       [Route("{id:int}")]
+       //[Authorize(Roles = "admin")]
+       public async Task<ActionResult<Contact>> Delete(int id)
+       {
 
-        [HttpDelete]
-        [Route("{id:int}")]
-        //[Authorize(Roles = "admin")]
-        public async Task<ActionResult<Contact>> Delete(
-            int id,
-            [FromServices] DataContext context
-            )
-        {
-            var contact = await context.Contacts.FirstOrDefaultAsync(x => x.Id == id);
-            if (contact == null)
-                return NotFound(new { message = "Usuário não encontrado" });
+           var contact = await _contactService.GetContact(id);
+           if (contact == null)
+               return NotFound(new { message = "Usuário não encontrado" });
+           contact.IsDeleted = true;
 
-            try
-            {
-                context.Contacts.Remove(contact);
-                await context.SaveChangesAsync();
+           _contactService.Delete(contact);
 
-                return Ok(new { message = "Contato deletado com sucesso!" });
-            }
-            catch
-            {
+           return Ok();
 
-                return BadRequest(new { message = "Não foi possível excluir o usuário." });
-            }
-
-        }
+       }
     }
 }

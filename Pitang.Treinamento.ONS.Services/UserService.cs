@@ -40,6 +40,21 @@ namespace Pitang.Treinamento.ONS.Services
         {
             return await _repository.AddAsync(user);
         }
-    }
+
+        public async Task<User> Update(User user)
+        {
+            var userUpdated = await _repository.Update(user);
+            return userUpdated.FirstOrDefault();
+        }
+
+        public void Delete(User user)
+        {
+            
+         _repository.Delete(user);
+            
+        }
+           
+     }
 }
+
 //x => x.Id == id

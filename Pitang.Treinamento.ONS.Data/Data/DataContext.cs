@@ -16,7 +16,7 @@ namespace Pitang.Treinamento.ONS.Data.Data
 
         public DbSet<Messages> Messages { get; set; }
 
-        public DbSet<Contact> Strories { get; set; }
+        public DbSet<User> Strories { get; set; }
 
         public override int SaveChanges()
         {

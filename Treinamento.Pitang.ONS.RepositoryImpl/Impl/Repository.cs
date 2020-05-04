@@ -34,9 +34,10 @@ namespace Treinamento.Pitang.ONS.RepositoryImpl
             return entity;
         }
 
-        public void Delete(T id)
+        public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            _entities.Remove(entity);
+            _context.SaveChanges();
         }
 
         public async Task<IEnumerable<T>> FindAllAsync()
@@ -58,9 +59,17 @@ namespace Treinamento.Pitang.ONS.RepositoryImpl
             throw new NotImplementedException();
         }
 
-        public T Update(T entity)
+        public async Task<IEnumerable<T>> Update(T entity)
         {
-            throw new NotImplementedException();
+            if (entity == null)
+            {
+                return null;
+            }
+
+            var idUserUpdated = entity.Id;
+            _context.Entry(entity).State = EntityState.Modified;
+            _context.SaveChanges();
+            return await FindBy(x => x.Id == idUserUpdated);
         }
     }
 }

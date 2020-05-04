@@ -15,5 +15,9 @@ namespace Treinamento.Pitang.ONS.Services
         User Add(User user);
 
         Task<User> AddAsync(User user);
+
+        Task<User> Update(User user);
+
+        void Delete(User user);
     }
 }

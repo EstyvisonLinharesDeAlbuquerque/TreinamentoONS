@@ -10,7 +10,7 @@ namespace Treinamento.Pitang.ONS.Repository
     {
         T Add(T entity);
         Task<T> AddAsync(T entity);
-        T Update(T entity);
+        Task<IEnumerable<T>> Update(T entity);
         void Delete(T id);
         void UnDelete(T id);
         Task<IEnumerable<T>> FindAllAsync();

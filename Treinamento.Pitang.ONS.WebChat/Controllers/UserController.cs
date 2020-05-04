@@ -68,17 +68,16 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
 
         _userService.Add(user);
         await context.SaveChangesAsync();
-        return Ok("Adicionado com sucesso");
+        var newUserDto = _mapper.Map<User, UserDto>(await _userService.GetUser(user.Id));
+        return newUserDto;
         }
 
         [HttpPut]
         [Route("{id:int}")]
         //[Authorize(Roles = "usuario")]
-        public async Task<ActionResult<UserDto>> Put(
-           int id,
-           [FromBody] UserDto modelDto,
-           [FromServices] DataContext context)
+        public async Task<ActionResult<UserDto>> Put(int id, [FromBody] UserDto modelDto)
         {
+            
             User user = _mapper.Map<UserDto, User>(modelDto);
             if (id != user.Id)
             {
@@ -88,28 +87,26 @@ namespace Treinamento.Pitang.ONS.WebChat.Controllers
             {
                 return BadRequest(ModelState);
             }
-            context.Entry(user).State = EntityState.Modified;
-            await context.SaveChangesAsync();
-            return Ok("Usuário atualizado com sucesso");
+           
+           var newUserDto =  _mapper.Map<User, UserDto>(await _userService.Update(user));
+            
+            return newUserDto;
         }
 
         [HttpDelete]
         [Route("{id:int}")]
         //[Authorize(Roles = "admin")]
-        public async Task<ActionResult<User>> Delete(
-            int id,
-            [FromServices] DataContext context
-            )
+        public async Task<ActionResult<User>> Delete(int id)
         {
             
-        var user = await context.Users.FirstOrDefaultAsync(x => x.Id == id);
+        var user = await _userService.GetUser(id);
         if (user == null)
             return NotFound(new { message = "Usuário não encontrado" });
-        
-        context.Users.Remove(user);
-        await context.SaveChangesAsync();
+            user.IsDeleted = true;
+
+            _userService.Delete(user);
                 
-        return Ok(new { message = "Usuário deletado com sucesso!" });
+        return Ok();
 
         }
     }
